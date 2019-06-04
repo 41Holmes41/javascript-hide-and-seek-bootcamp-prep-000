@@ -5,6 +5,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget(number1, number2){
-  var result = document.querySelector(number1, number2);
-  return result;
+  var result = document.querySelector(number1);
+  var result2= result.querySelector(number2);
+  return result2;
 }
