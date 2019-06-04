@@ -15,3 +15,5 @@ function increaseRankBy(n) {
     upRank[i].innerHTML = ((parseInt(upRank[i].innerHTML)) + n)
     }
 }
+
+
